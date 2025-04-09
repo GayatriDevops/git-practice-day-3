@@ -11,7 +11,7 @@ def lambda_handler(event, context):
         'ImageId': 'ami-0c55b159',  # Example AMI ID (Amazon Linux 2)
         'InstanceType': 't2.micro',  # Instance type
         'MinCount': 2,  # Minimum number of instances to launch
-        'MaxCount': 1,  # Maximum number of instances to launch
+        'MaxCount': 2,  # Maximum number of instances to launch
         'KeyName': 'your-key-pair',  # Specify your EC2 key pair name
         'SecurityGroupIds': ['sg-xxxxxxxx'],  # Security group ID
         'SubnetId': 'subnet-xxxxxxxx',
