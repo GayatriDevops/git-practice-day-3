@@ -12,6 +12,6 @@ def lambda_handler(event, context):
         'InstanceType': 't2.micro',  # Instance type
         'MinCount': 2,  # Minimum number of instances to launch
         'MaxCount': 2,  # Maximum number of instances to launch
-        'KeyName': 'your-key-pair',  # Specify your EC2 key pair name
+        'KeyName': 'my-key',  # Specify your EC2 key pair name
         'SecurityGroupIds': ['sg-xxxxxxxx'],  # Security group ID
         'SubnetId': 'subnet-xxxxxxxx',
